@@ -1,6 +1,7 @@
 package com.distribuida.model;
 
 import jakarta.persistence.*;
+import org.jspecify.annotations.Nullable;
 
 @Entity
 @Table(name = "cliente")
@@ -111,4 +112,5 @@ public class Cliente {
                 ", correo='" + correo + '\'' +
                 '}';
     }
+
 }
